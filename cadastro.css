@@ -1,0 +1,74 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700;800&family=Dela+Gothic+One&family=Lexend:wght@100&family=Reem+Kufi+Fun&display=swap');
+.navbar-container {
+    display: block;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* Estilo para a div de título */
+.titulo {
+    text-align: center;
+    background-color: #e3e310;
+    color: #0c0c0c;
+    padding: 10px;
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para os rótulos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para os botões */
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #23b70c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #56da21;
+}
+
+.cadastro{
+
+    text-align: center;
+    color:#0c0c0c;
+    display: block;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    border-color: #e3e310;
+    padding: 10px;
+    font-size: large;
+}
+
